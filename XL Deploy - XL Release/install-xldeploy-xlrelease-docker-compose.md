@@ -37,7 +37,7 @@ sudo chown -R 10001 ~/XebiaLabs/
 ```
 vi docker-compose.yml
 ```
-Paste the below code and change the ADMIN-PASSWORD save the file.
+Paste the below code and change the ADMIN_PASSWORD save the file.
 
 ```
 version: "2"
@@ -57,7 +57,7 @@ services:
       - ~/XebiaLabs/xl-deploy-server/repository:/opt/xebialabs/xl-deploy-server/export
       - ~/XebiaLabs/xl-deploy-server/repository:/opt/xebialabs/xl-deploy-server/work
     environment:
-      - ADMIN_PASSWORD=ADMIN-PASSWORD
+      - ADMIN_PASSWORD=admin
       - ACCEPT_EULA=Y
 
   xlr:
@@ -76,7 +76,7 @@ services:
       - ~/XebiaLabs/xl-release-server/archive:/opt/xebialabs/xl-release-server/archive
       - ~/XebiaLabs/xl-release-server/archive:/opt/xebialabs/xl-release-server/reports
     environment:
-      - ADMIN_PASSWORD=ADMIN-PASSWORD
+      - ADMIN_PASSWORD=admin
       - ACCEPT_EULA=Y
 ```
 
@@ -87,7 +87,7 @@ services:
 ```
 vi docker-compose.yml
 ```
-Paste the below code and change the ADMIN-PASSWORD save the file.
+Paste the below code and change the ADMIN_PASSWORD save the file.
 
 ```
 version: "2"
@@ -98,7 +98,7 @@ services:
     ports:
       - "4516:4516"
     environment:
-      - ADMIN_PASSWORD=ADMIN-PASSWORD
+      - ADMIN_PASSWORD=admin
       - ACCEPT_EULA=Y
 
   xl-release:
@@ -109,7 +109,7 @@ services:
     links:
       - xl-deploy
     environment:
-      - ADMIN_PASSWORD=ADMIN-PASSWORD
+      - ADMIN_PASSWORD=admin
       - ACCEPT_EULA=Y
 ```
 
@@ -161,6 +161,15 @@ docker stop <container id>
 ```
 ![docker start stop](images/4.png)
 
+### You can access Deploy and Release
+
+```
+xl-deploy-docker URL: http://server-ip-address:4516
+xl-deploy-docker URL: http://server-ip-address:5516
+
+Username: admin
+Password: admin (this password is when create a docker-compose file ADMIN_PASSWORD=admin section)
+```
 
 ## References
 
