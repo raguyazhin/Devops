@@ -10,7 +10,7 @@ See documentation [here](../Docker/install-docker.md)
 
 ## XL Deploy and XL Release with Volumes
 
-### Create Volumes for XL Deploy and XL Release
+### 2.Create Volumes for XL Deploy and XL Release
 
 ```sh
 mkdir -p XebiaLabs/xl-deploy-server/conf
@@ -82,7 +82,7 @@ services:
 
 ## XL Deploy and XL Release no volumes
 
-### 3.Create docker-compose.yml file
+### 2.Create docker-compose.yml file
 
 ```
 vi docker-compose.yml
@@ -115,7 +115,7 @@ services:
 
 ## Step 3
 
-### 4.Run Docker-compose file
+### Run Docker-compose file
 
 ```
 docker-compose up -d
