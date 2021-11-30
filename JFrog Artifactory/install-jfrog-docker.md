@@ -94,4 +94,4 @@ You should see Artifactory welcome page.
 ```
 Username: admin, Password: password
 ```
-![welcome](images/2.png)
+![dashboard](images/2.png)
