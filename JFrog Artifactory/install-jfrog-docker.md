@@ -1,4 +1,4 @@
-# Install JFrog Arifactory using Docker
+# Install JFrog Artifactory using Docker
 
 ## Pre-requistes:
 
