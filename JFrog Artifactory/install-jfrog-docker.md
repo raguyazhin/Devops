@@ -87,7 +87,11 @@ http://server_ip:8081/
 
 You should see Artifactory welcome page.
 ```
+
+![welcome](images/1.png)
+
 ### Default username password for JFrog
 ```
 Username: admin, Password: password
 ```
+![welcome](images/2.png)
