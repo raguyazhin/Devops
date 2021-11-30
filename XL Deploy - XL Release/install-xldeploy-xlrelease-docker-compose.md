@@ -4,7 +4,7 @@
 
 ### Install Docker and Docker Compose on Instance
 
-See documentation [here](../Docker/install-docker)
+See documentation [here](../Docker/install-docker.md)
 
 ## Step 2
 
