@@ -1,4 +1,4 @@
-# Instal XL Deploy and XL Release using Docker Compose
+# Install XL Deploy and XL Release using Docker Compose
 
 ## Step 1
 
