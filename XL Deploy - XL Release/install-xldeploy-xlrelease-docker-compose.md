@@ -2,7 +2,7 @@
 
 ## Pre-requistes:
 
-* Choose at least small or medium instance type (8GB RAM)
+* Choose at least large or xlarge instance type (8GB RAM)
 * ports 4516 and 5516 needs to be opened.
 * 4516 for XL Deploy.
 * 5516 for XL Release. 
