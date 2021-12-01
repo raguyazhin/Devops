@@ -102,6 +102,6 @@ Username: admin
 
 Password: (this password is when edit the inventory file)
 
-**After login ansible tower in tower license provide redhat user name and password when create download the ansible package from Redhat portal.**
+**After login ansible tower in tower license provide redhat user name and password when we create download the ansible package from Redhat portal.**
 
 ![ansible tower](images/7.png)
