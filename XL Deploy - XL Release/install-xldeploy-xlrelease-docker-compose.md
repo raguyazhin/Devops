@@ -1,5 +1,12 @@
 # Install XL Deploy and XL Release using Docker Compose
 
+## Pre-requistes:
+
+* Choose at least small or medium instance type (8GB RAM)
+* ports 4516 and 5516 needs to be opened.
+* 4516 for XL Deploy.
+* 5516 for XL Release. 
+
 ## Step 1
 
 ### Install Docker and Docker Compose on Instance
