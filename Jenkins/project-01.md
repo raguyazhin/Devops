@@ -8,8 +8,8 @@
 
 ## Pre-requistes:
 
-* ### EC2 instance with Tomcat Serer [Installation steps here](../Tomcat/install-tomcat-ec2.md)
-* ### Jenkins Server [Installation steps here](../Jenkins/install-jenkins-docker-compose.md)
+* #### EC2 instance with Tomcat Serer [Installation steps here](../Tomcat/install-tomcat-ec2.md)
+* #### Jenkins Server [Installation steps here](../Jenkins/install-jenkins-docker-compose.md)
 
 ## Steps for Integration
 1. Login to Jenkins console

@@ -4,7 +4,7 @@
 
 ### Jenkins Fetch Java Code from GitHub, Build a WAR file, Builded Artifact copied to Ansible Server and the Ansible Server copy the Artifact to Tomcat Server webapp folder.
 
-![project 1](images/simple-devops-02.png)
+![project 2](images/simple-devops-02.png)
 
 ## Pre-requistes:
 
