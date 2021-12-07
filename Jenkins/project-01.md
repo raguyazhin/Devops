@@ -1,7 +1,6 @@
 # Setup Simple DevOps Projects - 01
 
 ## Java Web Application ( WAR ) File Deployment.
-<br>
 
 ### Jenkins Fetch Java Code from GitHub, Build a WAR file and deploy to Tomcat Server
 
