@@ -1,8 +1,8 @@
 # Setup Simple DevOps Project - 02
 
-## Java Web Application ( WAR ) File Deployment.
+## Java Web Application ( WAR ) file Deployment.
 
-### Jenkins Fetch Java Code from GitHub, Build a WAR file, Builded Artifact copied to Ansible Server and the Ansible Server copy the Artifact to Tomcat Server webapp folder.
+### Jenkins fetch Java Code from GitHub and Build a WAR file, Built Artifact is copied to Ansible Server then Ansible Server copies the Artifact to Tomcat Server webapp folder.
 
 ![project 2](images/simple-devops-02.png)
 

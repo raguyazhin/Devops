@@ -2,7 +2,7 @@
 
 ## Java Web Application ( WAR ) File Deployment.
 
-### Jenkins Fetch Java Code from GitHub, Build a WAR file and deploy to Tomcat Server
+### Jenkins fetch Java Code from GitHub, Build a WAR file and deploy to Tomcat Server
 
 ![project 1](images/simple-devops-01.png)
 
