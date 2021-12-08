@@ -1,4 +1,4 @@
-# Install Terraform in AWS EC2
+# Install Terraform on AWS EC2
 
 ```sh
 #Get the latest release version.
