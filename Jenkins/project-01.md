@@ -1,4 +1,4 @@
-# Setup Simple DevOps Projects - 01
+# Setup Simple DevOps Project - 01
 
 ## Java Web Application ( WAR ) File Deployment.
 
