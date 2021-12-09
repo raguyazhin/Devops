@@ -55,7 +55,7 @@ cd opt/
 mkdir docker
 ```
 
-### give a permission to dockeradmin for docker folder
+### Give a permission to dockeradmin for docker folder
 ```
 groupadd optgrp
 chown root:optgrp /opt/
@@ -75,7 +75,7 @@ cd /opt/docker
 
 vi Dockerfile
 ```
-### Copy the below code in Dockerfile save and exit
+#### Copy the below code in Dockerfile save and exit
 
 ```
 # pull Tomcat image 
@@ -87,7 +87,7 @@ MAINTAINER "devops"
 # copy war file on to container 
 COPY ./sample-web.war /usr/local/tomcat/webapps
 ```
-### Enable Password based Authendication
+#### Enable Password based Authendication
 
 ```sh
 # Change PasswordAuthentication no To PasswordAuthentication yes
