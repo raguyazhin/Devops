@@ -50,6 +50,7 @@ vi /etc/ssh/sshd_config
 # Change PasswordAuthentication no To PasswordAuthentication yes
 
 #Restart SSH Service
+service sshd restart
 ```
 Login as a **ansadmin** user on master (Ansible Server) and generate ssh key (Master)
 
@@ -63,7 +64,7 @@ Copy keys onto all ansible client (Tomcat Server) nodes (Master)
 ssh-copy-id ansadmin@<Tomcat Server IP>
 ```
 
-## Integration Steps
+## Jenkins Integration Steps
 
 Install "publish Over SSH"
 
@@ -74,6 +75,7 @@ Enable connection between Ansible and Jenkins
 -   `Manage Jenkins` > `Configure System` > `Publish Over SSH` > `SSH Servers`
 
     - SSH Servers:
+        - Name: `ansible_server`
         - Hostname: `<Ansible ServerIP>`
         - username: `ansadmin`
         - password: `*******`
@@ -100,6 +102,23 @@ Copy the below code save and exit
         src: ~/target/sample-web.war
         dest: /opt/apache-tomcat-9.0.55/webapps
 ```      
+## Jenkins Integration Steps
+
+Install "publish Over SSH"
+
+- `Manage Jenkins` > `Manage Plugins` > `Available` > `Publish over SSH`
+
+Enable connection between Ansible and Jenkins
+
+-   `Manage Jenkins` > `Configure System` > `Publish Over SSH` > `SSH Servers`
+
+    - SSH Servers:
+        - Hostname: `<Ansible ServerIP>`
+        - username: `ansadmin`
+        - password: `*******`
+    - Test the connection "Test Connection"
+
+![project 2](images/simple-devops-02-01.png)
 
 ## Create Jenkins job
 
