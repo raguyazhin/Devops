@@ -10,7 +10,7 @@
 
 * #### EC2 instance with Tomcat Serer [Installation steps here](../Tomcat/install-tomcat-ec2.md)
 * #### Jenkins Server [Installation steps here](../Jenkins/install-jenkins-docker-compose.md)
-* #### Ansible Server [Installation steps here](../Ansible/install-ansible-tower-single-machine-integrated.md)
+* #### Ansible Tower Server [Installation steps here](../Ansible/install-ansible-tower-single-machine-integrated.md)
 
 ## Configure SSH User in Ansible Server
 
