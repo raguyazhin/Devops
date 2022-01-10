@@ -4,7 +4,7 @@
 
 * Choose at least small or medium instance type (2GB RAM)
 * port 8080 needs to be opened.
-* 8081 Jenkins Default Port.
+* 8080 Jenkins Default Port.
 
 ## Step 1
 

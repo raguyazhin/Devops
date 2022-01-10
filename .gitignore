@@ -3,3 +3,4 @@ provider.tf
 .terraform.lock.hcl
 terraform.tfstate
 terraform.tfstate.*
+*.pem
