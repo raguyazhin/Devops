@@ -4,7 +4,7 @@
 
 ### Jenkins fetch Java Code from GitHub and Build a WAR file, Built Artifact is copied to Docker Server then Docker Server create Tomcat Docker container using Dockerfile after Artifact copied to Tomcat webapp folder.
 
-![project 3](images/simple-devops-03.png)
+![project 3](images/3/simple-devops-03.png)
 
 
 ## Pre-requistes:
@@ -113,7 +113,7 @@ Enable connection between Ansible and Jenkins
         - password: `*******`
     - Test the connection "Test Connection"
 
-![project 3](images/simple-devops-03-01.png)
+![project 3](images/3/simple-devops-03-01.png)
 
 ## Create Jenkins job
 
@@ -142,7 +142,7 @@ Enable connection between Ansible and Jenkins
         cd /opt/docker;
         docker build -t devops_demo .
         ```
-![project 3](images/simple-devops-03-02.png)
+![project 3](images/3/simple-devops-03-02.png)
 
 - Add post-build steps
 
@@ -150,7 +150,7 @@ Enable connection between Ansible and Jenkins
         - SSH Server : `docker_host`
         - Exec command : `docker run -d --name devops_demo -p 8090:8080 devops_demo`
 
-![project 3](images/simple-devops-03-03.png)
+![project 3](images/3/simple-devops-03-03.png)
 
 **Save and Build Now**
 
@@ -159,12 +159,12 @@ Enable connection between Ansible and Jenkins
 ```
 docker images
 ```
-![project 3](images/simple-devops-03-04.png)
+![project 3](images/3/simple-devops-03-04.png)
 
 ```
 docker ps
 ```
-![project 3](images/simple-devops-03-05.png)
+![project 3](images/3/simple-devops-03-05.png)
 
 Access web application from browser which is running on container
 

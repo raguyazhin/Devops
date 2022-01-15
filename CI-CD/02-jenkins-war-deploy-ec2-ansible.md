@@ -4,7 +4,7 @@
 
 ### Jenkins fetch Java Code from GitHub and Build a WAR file, Built Artifact is copied to Ansible Server then Ansible Server copies the Artifact to Tomcat Server webapp folder.
 
-![project 2](images/simple-devops-02.png)
+![project 2](images/2/simple-devops-02.png)
 
 ## Pre-requistes:
 
@@ -81,7 +81,7 @@ Enable connection between Ansible and Jenkins
         - password: `*******`
     - Test the connection "Test Connection"
 
-![project 2](images/simple-devops-02-01.png)
+![project 2](images/2/simple-devops-02-01.png)
 
 ## Create Playbook for Copy WAR From Ansible Server to Tomcat Server
 
@@ -118,7 +118,7 @@ Enable connection between Ansible and Jenkins
         - password: `*******`
     - Test the connection "Test Connection"
 
-![project 2](images/simple-devops-02-01.png)
+![project 2](images/2/simple-devops-02-01.png)
 
 ## Create Jenkins job
 
@@ -139,7 +139,7 @@ Enable connection between Ansible and Jenkins
         - Source fiels : `**/*.war`
         - Remote directory : `//`
 
-![project 2](images/simple-devops-02-02.png)
+![project 2](images/2/simple-devops-02-02.png)
 
 - Add post-build steps
 
@@ -147,6 +147,6 @@ Enable connection between Ansible and Jenkins
         - SSH Server : `ansible_server`
         - Exec command : `ansible-playbook /home/ansadmin/playbooks/copywarfile.yml`
 
-![project 2](images/simple-devops-02-03.png)
+![project 2](images/2/simple-devops-02-03.png)
 
 **Save and Build Now**

@@ -4,7 +4,7 @@
 
 ### Jenkins fetch Java Code from GitHub, Build a WAR file and deploy to Tomcat Server
 
-![project 1](images/simple-devops-01.png)
+![project 1](images/1/simple-devops-01.png)
 
 ## Pre-requistes:
 
@@ -22,9 +22,9 @@
         - Root POM : `pom.xml`
         - Goals and options : `clean install package`
 
-![project 1](images/simple-devops-01-01.png)
+![project 1](images/1/simple-devops-01-01.png)
 
-![project 1](images/simple-devops-01-03.png)
+![project 1](images/1/simple-devops-01-03.png)
 
 ## Steps for Deployment
 - Install `deploy to container` plugin. this is need to deploy on tomcat server.
@@ -41,7 +41,7 @@
         - id : `Tomcat_user`
         - Description: `Tomcat user to deploy on tomcat server`
 
-![project 1](images/simple-devops-01-02.png)
+![project 1](images/1/simple-devops-01-02.png)
 
 - post Steps
     - `Post-build Actions` > `Add post-build action`
@@ -51,7 +51,7 @@
         - Credentials: `Tomcat_user`
         - Tomcat URL : `http://<PUBLIC_IP>:<PORT_NO>`
 
-![project 1](images/simple-devops-01-04.png)
+![project 1](images/1/simple-devops-01-04.png)
 
 **Save and Build Now**
 
@@ -63,7 +63,7 @@ Now job running fine so add continuous integration and deployment to add below s
     - Poll SCM
         -schedule H/5 * * * *
 
-![project 1](images/simple-devops-01-05.png)
+![project 1](images/1/simple-devops-01-05.png)
 
 Every 5 minutes check github repository if any changes in code then fetch from repository and bulid the code and deploy to tomcat server.
 

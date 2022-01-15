@@ -2,4 +2,4 @@
 
 ## Java Web Application ( WAR ) file Deployment.
 
-![project 4](images/simple-devops-04.png)
+![project 4](images/4/simple-devops-04.png)
