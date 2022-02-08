@@ -85,6 +85,6 @@ Access web application from browser which is running on container
 
 ![project 5](images/5/simple-devops-05-11.png)
 
-- paste the url from get it from elastic Beanstalk Environment/##WAR FILE NAME##
+paste the url from get it from elastic Beanstalk Environment/##WAR FILE NAME##
 
 ![project 5](images/5/simple-devops-05-12.png)
