@@ -67,9 +67,7 @@
 
 #### 8.  Click Services Tab and Click Create
 ![project 6](images/6/12.PNG)
-
 #### 9.  Configure Service Launch type Select ***FARGATE***
-
 ![project 6](images/6/13.PNG)
 ![project 6](images/6/14.PNG)
 ![project 6](images/6/15.PNG)
@@ -80,25 +78,34 @@
 ![project 6](images/6/20.PNG)
 ![project 6](images/6/21.PNG)
 ![project 6](images/6/22.PNG)
+
 #### 9.  Edit the Service Security Group of inbound Rule replced with ALB Security Group Shown Below Image
 ![project 6](images/6/23.PNG)
 ![project 6](images/6/24.PNG)
 ![project 6](images/6/26.PNG)
 
 
+### ***Configure Continuous Integration and Deployment using Code Pipeline***
 
-
-
+#### 1. Create AWS Code Pipeline follow the Below steps
 
 ![project 6](images/6/CP-1.PNG)
 ![project 6](images/6/CP-2.PNG)
 ![project 6](images/6/CP-3.PNG)
+
+#### 2. Build Service Add Environment Variable Used in buildspec.yml file
 ![project 6](images/6/CP-4.PNG)
+![project 6](images/6/CP-8.PNG)
 ![project 6](images/6/CP-5.PNG)
 ![project 6](images/6/CP-6.PNG)
 ![project 6](images/6/CP-7.PNG)
-![project 6](images/6/CP-8.PNG)
 
+#### 3. Add Policy to Code build Role to Access ECR
 ![project 6](images/6/IAM-1.PNG)
 
 ![project 6](images/6/SG-1.PNG)
+
+#### 3. To check Application Copy the DNS name of created load balancer put in to browser
+![project 6](images/6/ALB-5.PNG)
+
+![project 6](images/6/ALB-6.PNG)
