@@ -18,10 +18,10 @@
 
 #### 3. Create Target Group
 
-![project 6](images/6/TG-1.PNG)
+![project 6](images/6/TG-1.png)
 
 #### 3. Register targets
-![project 6](images/6/TG-2.PNG)
+![project 6](images/6/TG-2.png)
 
 #### 4. Enter ***Load balancer name*** and ***VPC*** and ***Security Groups*** and ***Target Groups***
 ![project 6](images/6/ALB-2.PNG)
