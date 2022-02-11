@@ -1,4 +1,4 @@
-# Setup Simple DevOps Project - 03
+# CI CD Project - 03
 
 ## Java Web Application ( WAR ) file Deployment.
 

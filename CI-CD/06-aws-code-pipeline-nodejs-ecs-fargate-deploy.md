@@ -6,4 +6,4 @@
 
 ---
 
-![project 6](images/6/simple-devops-05.png)
+![project 6](images/6/simple-devops-06.png)
